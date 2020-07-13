@@ -14,7 +14,7 @@ This is a simple service that extracts airbnb user's Relative Ranking from the u
 
 ```bash
 # CLI command
-python UserRating.py --url https://www.airbnb.com/users/show/3954907
+python UserRating.py --url https://www.airbnb.com/users/show/99824610
 # Output would be like
 "https://www.airbnb.com/users/show/99824610 is in the top 77.17 of Melbourne Airbnb users based on number of reviews"
 ```
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 > now just use bash to use the service as shown
 ```bash
 #code away!
-python UserRating.py --url https://www.airbnb.com/users/show/3954907
+python UserRating.py --url https://www.airbnb.com/users/show/99824610
 ```
 
 ## Packages
