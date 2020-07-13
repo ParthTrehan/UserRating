@@ -32,3 +32,6 @@ for review in Users.UniqueId:
         continue
 print(time.time()-start)
 pd.DataFrame.from_dict(reviewersDict,orient='index').to_csv('airbnbUsers.csv')
+users = pd.DataFrame.from_dict(reviewersDict,orient='index')
+melbUsers = users[users['Location']=='Melbourne, Australia']
+melbUsers.to_csv('Melbourne_airbnb_users.csv')
